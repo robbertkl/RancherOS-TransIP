@@ -14,7 +14,7 @@ This repo contains instructions to install [RancherOS](http://rancher.com/ranche
 ```
 dhcp
 set base-url http://releases.rancher.com/os/latest
-kernel ${base-url}/vmlinuz rancher.password=rancher rancher.state.autoformat=[/dev/vda]
+kernel ${base-url}/vmlinuz rancher.password=rancher
 initrd ${base-url}/initrd
 boot
 ```
